@@ -1,0 +1,13 @@
+test  !BEGIN
+---------------------------------
+the input file:./5_Degree/SnO2TWIN_5_POSCAR.vasp
+---------------------------------
+1.getAngle:
+-refElement:
+['Sn', 12, 13]
+*Return:
+alpha:91.25298322236793
+beta :1.2529832223680248
+gamma:90.0
+********************************
+FINISHED!

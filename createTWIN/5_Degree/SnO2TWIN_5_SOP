@@ -1,0 +1,45 @@
+SnO2TWIN_5  !BEGIN
+---------------------------------
+the input file:./SnO2TWIN/SnO2TWIN_0_template
+---------------------------------
+1.Cartesian2Direct:NO
+********************************
+2.simpleDIM:
+[1 2 1]
+********************************
+3.rotationRoundFixedPlane:
+-fixedPlane:
+[[0.  0.5 0. ]
+ [0.  0.5 1. ]
+ [1.  0.5 0. ]]
+-parallelAxis:[0 0 1]
+-angle:-5
+-postionRange:[[0.  1. ]
+ [0.  0.5]
+ [0.  1. ]]
+********************************
+4.rotationRoundFixedPlane:
+-fixedPlane:
+[[0.  0.5 0. ]
+ [0.  0.5 1. ]
+ [1.  0.5 0. ]]
+-parallelAxis:[0 0 1]
+-angle:5
+-postionRange:[[0.  1. ]
+ [0.5 1. ]
+ [0.  1. ]]
+********************************
+5.cutLattice:
+[[0.17821 0.37822]
+ [0.25093 0.74907]
+ [0.      1.     ]]
+********************************
+6.Direct2Cartesian:YES
+********************************
+7.autoMove2ZeroByElement:Sn
+********************************
+8.autoMove2ZeroByElement:Sn_a
+********************************
+9.autoMove2ZeroByElement:Sn_b
+********************************
+FINISHED!

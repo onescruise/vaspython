@@ -1,0 +1,8 @@
+phonopy-gruneisen orig plus1 minus1 --dim="2 2 2" --band="0 0 0 1/2 0 0 1/2 1/2 0 0 0 0	1/2 1/2 1/2 1/2 0 0" -p -s -c POSCAR
+
+
+
+
+phonopy-gruneisen orig plus1 minus1 --dim="3 3 3" --band="0.0 0.0 0.0 0.0 0.0 0.5 -0.333 0.667 0.5 -0.333 0.667 0.0 0.0 0.0 0.0 0.0 0.5 0.0 0.0 0.5 0.5 -0.333 0.667 0.5" -p -s -c POSCAR
+
+phonopy-gruneisen orig plus minus --dim="2 2 2" --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" --mesh="20 20 20" -p -c POSCAR-unitcell --color="RB"
